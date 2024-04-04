@@ -1,0 +1,240 @@
+version: "3.0"
+
+nlu:
+
+- intent: PT
+  examples: |
+    - Ai dễ thương nhất
+
+
+- intent: greet
+  examples: |
+    - Xin chào
+    - chào thầy
+    - chào cô
+    - Có ai giúp mình không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - Chào
+    - Có ai ở đây không?
+    - hey
+    - hello
+    - hi
+    - Em ơi
+    - Xin chào anh
+    - Xin chào em
+    - xin chào bạn nhe
+    - Xin chào bạn
+
+- intent: ask_khht
+  examples: |
+    - Kì 2 hay 3 trường có mở lớp Anh Văn 3 không ạ.nhes
+    - Nếu muốn làm Lập trình viên font end nên chuẩn bị những kiến thức nào?
+    - Có được rút học phần sau khi trường đã đăng ký?
+    - Khi ra trường nên tự học thêm những gì để hoàn thiện bản thân hơn
+    - Sinh viên có thể xem thời khóa biểu ở đâu?
+    - đồ án mình làm thời hạn trễ nhất để nộp là bao lâu ạ?
+    - Có được sắp xếp lịch học hay không?
+    - em có thể chọn học phần tự chọn trong khung 1 thay thế cho học phần tự chọn khung 3 được không?
+    - Thời gian tối đa để làm đồ án tốt nghiệp là bao lâu ạ?
+    - Cho em hỏi để xem kế hoạch học tập thì phải làm như thế nào vậy ạ?
+    - Cho em hỏi kế hoạch học tập là em có thể tự lên kế hoạch cho mình hay là do trường lên kế hoạch sẵn? 
+    - cho em hỏi, muốn xem kế hoạch học tập thì xem ở đâu ạ? 
+    - Em có quyền thay đổi kế hoạch học tập không ạ?
+    - Em có thể tự sắp xếp kế hoạch học tập không?
+    - Em có thể thay đổi kế hoạch học tập của mình sau khi trường đã sắp xếp không?
+    - Kế hoạch học tập có sẵn thì cho em xem chi tiết được không?
+    - Kế hoạch học tập được lập hàng năm hay theo khóa học?
+    - Sau khi trường sắp xếp thì em có được thay đổi kế hoạch học tập của em không?
+    - Sau khi trường sắp xếp thì em có được thay đổi kế hoạch học tập của mình không?
+    - Trường đã sắp xếp kế hoạch học tập sẵn liệu em có thể thay đổi kế hoạch học tập để phù hợp hơn với mình?
+    - Một học kỳ có thể sắp xếp bao nhiêu tín chỉ tối đa?
+    - hiện tại các khóa 2019 về sau đi thực tập 3 tháng hay 5 tuần ạ?
+    - Học CNTT có đi thực tập không ạ
+    - Khi nào thì được đi thực tập?
+
+
+- intent: ask_hocvu
+  examples: |
+    - Các quy trình chuyển qua trường có phức tạp không?
+    - Em có thể xem thông tin hoc vụ cụ thể nhất ở đâu?
+    - Sinh viên có thể xem thông tin về môn học ở đâu?
+    - Vào thời gian nào để mình đăng kí học phần dễ nhất kịp thời mà không bị đầy lớp ạ?
+    - Nếu em quên mật khẩu hệ thống thì em có đăng ký học phần được không?
+    - Ngoài em ra còn những ai có thể xem thông tin học vụ của em
+    - Những ai có thể tìm kiếm và xem được toàn bộ thông tin học vụ của em?
+    - Nhưng ai có thể tìm thấy thông tin của em?
+    - Những ai có thể xem toàn bộ thông tin học vụ của em?
+    - Nếu học một năm xong muốn bảo lưu lại để sau này học lại có được không?
+    - Nếu bảo lưu được thì bão lưu có thời hạn trong bao lâu?
+    - Một học phần thì có tối thiểu bao nhiêu sinh viên?
+    - Thời gian đào tạo của nghành khoa học máy tính là bao nhiêu năm ạ?
+    - Thời gian của một phần là bao lâu?
+    - Cho em hỏi khi nào đăng ký học phần vậy ạ?
+    - Khi nào thì mở học phần ạ?  
+    - Em thấy trong chương trình khung là 9 học kỳ là sao ạ?
+    - Học đủ hết tất cả là bao nhiêu chỉ của ngành HTTTT thì đủ điều kiện để tốt nghiệp?
+
+
+- intent: ask_hocbong
+  examples: |
+    - Học bổng loại khá bao nhiêu ạ?
+    - Khi nào thì có học bổng đợt 2 ạ. cho em hỏi thêm là em có tài khoản ngân hàng VCB rồi, em nhận tiền trên tài khoản của em được không ạ?
+    - Cho em hỏi học bổng trường xét như thế nào vậy ạ?
+    - Học bổng sẽ được trao cho những đối tượng sinh viên nào? Trị giá của học bổng?
+    - học bổng họ dương một năm được phát mấy lần ạ
+    - Quy trình xét học bổng như thế nào?
+    - học bổng giỏi điều kiện sẽ như thế nào?
+    - Để đạt được học bổng loại Giỏi thì em cần phải thỏa những điều kiện gì?
+    - Nếu em có học bổng thì bao lâu thì em sẽ nhận được?
+    - Nếu được học bổng trong bao lâu có thể nhận được?
+    - Điều kiện xét học bổng của sinh viên năm cuối? 
+    - Làm sao để có học bổng?
+
+
+- intent: ask_giayxacnhan
+  examples: |
+    - Giấy xác nhận đăng ký lúc nào cũng được đúng không ạ?
+    - Cho em hỏi làm giấy xác nhận ở đâu và như thế nào vậy ạ?
+    - giấy xác nhận mình làm xong do sự cố không gửi lên kịp tại sao không được xét lại ạ?
+    - Sinh viên có thể lấy các giấy xác nhận ở đâu?
+    - Muốn lấy giấy xác nhận thì cần những điều kiện gì?"
+    - Sinh viên có thể yêu cầu làm nhanh giấy xác nhận được không? 
+    - khoản bao lâu thì em nhận được giá xác nhận nghĩa vụ quân sự
+    - Trường có cho đăng ký gửi giấy xác nhận về địa phương không?
+    - với dịch bệnh, muốn nhận online như thế nào?
+    - Em có thể xin giấy xác nhận để vay vốn tại đâu?
+    - Tất cả xác nhận em phải xác nhận từ xã hay chỉ cần là xác nhận của huyện hoặc tỉnh thì đều được?
+    - Giả sử em không thể lên trường thì em có thể hoãn nghĩa vụ quân sự tại xã phường khi không có giấy không?
+    - khi đăng kí học văn bằng 2 có được đăng kí giấy tạm hoãn nghĩa vụ quân sự không?
+    - Khi em làm giấy xác nhận thì cần những thông tin gì của cơ quan địa phương không ạ?
+    - Giấy xác nhận em có thể lấy trong bao lâu?
+    - Mất bao lâu mới nhận được?
+
+
+- intent: ask_hocphi
+  examples: |
+    - Có giảm học phí cho học sinh nghèo hong ạ?
+    - Có được giảm học phí mùa dịch này không ạ?
+    - Học phí có tăng theo mỗi năm không ạ?
+    - Khi nào thì đóng học phí ạ?
+    - Cho em hỏi đóng học phí như thế nào vậy ạ?
+    - yêu cầu học phí của nhà trường sao chỉ gia hạn được 1 tháng ạ?
+    - Học phí một tín chỉ bao nhiêu tiền?
+    - Đóng học phí trễ có được không?
+    - Gia hạn đóng học phí trễ nhất được bao lâu?
+    - thời gian gia hạn đống học phí lâu nhất là bao nhiêu ạ
+    - Thời hạn tối đa của đơn xin gia hạn học phí là bao lâu?
+    - đã đóng học phí 1 tuần sau mà muốn bảo lưu học tập thì tiền học phí có được bảo lưu hay không?
+    - Chính sách miễn giảm học phí của trường xem được ở đâu?
+    - Em có thể đóng học phí trễ hạn lâu nhất là bao lâu?
+    - thời gian đóng học phí có thể kéo dài hơn?
+    - Học phí có thể hoãn lại bao lâu khi em không có khả năng chi trả?
+    - Học phí mùa dịch có thể giảm bớt được không?
+    - Học phí học kì sau có được giảm không ạ?
+    - Có thể gia hạn thêm thời gian đóng học phí không ạ?
+    - Khi nào trường mới giảm học phí
+    - Do tình hình dịch diễn biến phức tạp, nhà trường có thể giảm học phí cho sinh viên không?
+    - Học phí có thay đổi gì trong học kì tới không?
+- intent: ask_baohiemyte
+  examples: |
+    - Đổi sang bảo hiểm số thì có còn lại trường nhận bhyt giấy không?
+    - Liên hệ ai để lấy thẻ bảo hiểm y tế ạ?
+    - Cho em hỏi khi nào nhận được bảo hiểm y tế ạ?
+    - Sinh viên có thể không đăng ký bảo hiểm y tế được không ?
+    - đã đóng bảo hiểm ở địa phương thì có thể không cần đóng bảo hiểm hay không?
+    - Em có thể không đóng bảo hiểm tại trường được không?
+    - Nếu em đã có BHYT rồi, thì em vẫn đóng tiền như trên hệ thống và đợi phòng tài chính kế toán xem xét hoàn tiền hay sao ?
+    - Bảo hiểm y tế của em có thể sử dụng trên các bệnh viện liên tỉnh không ?
+    - Khi nào em mới nhận lại được bảo hiểm y tế mới của mình hay thẻ cũ vẫn dùng được?
+    - Nếu em đã được cấp bảo hiểm y tế tại địa phương thì em có nên đóng tiền bảo hiểm y tế tại trường nữa không?
+    - Thời hạn bảo hiểm là bao nhiêu năm?
+
+- intent: ask_phongtrao
+  examples: |
+    - Nếu em chăm chỉ tham gia phong trào thì điểm rèn luyện của em có được cộng thêm không ?
+    - Hiện tại Nhà trường có các phong trào lớn nổi bật nào trong năm
+    - những phong trào, hoạt động đã tham gia có lợi ích như thế nào khi phỏng vấn tại công ty sau khi ra trường.
+    - Trường có tất cả bao nhiêu câu lạc bộ, đội, nhóm?
+    - Tham gia và làm việc trong câu lạc bộ có tính là tham gia phong trào không ?
+    - Tham gia phong trào được cộng tối đa bao nhiêu điểm rèn luyện?
+    - Khi em tham gia các hoạt động có nhận được điểm rèn luyện hay không?
+
+
+- intent: ask_totnghiep
+  examples: |
+    - Theo tiến độ là tụi em 4 năm nhận được bằng kỹ sư PM đúng không? Hay là 4,5 năm ạ?
+    - Sau 4 năm thì tốt nghiệp hay 4 năm rưỡi ạ?
+    - Cho em hỏi để tốt nghiệp cần những tiêu chí gì vậy ạ?
+    - nhận giấy tốt nghiệp cần bao nhiêu yếu tố ạ ?
+    - Nếu trả nợ hết môn trước tháng 9 thì có được xét tốt nghiệp vào tháng 3 năm sau không ạ
+    - tốt nghiệp chậm nhất là bao lâu ?
+    - Bằng kỹ sư có thể tốt nghiệp sớm nhất trong bao lâu?
+    - cần đủ những điều kiện gì để ra trường ạ
+    - Thời gian xét tốt nghiệp là tháng mấy ?
+    - khi nào có thể nhận bằng tốt nghiệp tạm thời sau khi đã tích luỹ đủ tín chỉ?
+    - Tất cả các bằng tốt nghiệp ở khoa CNTT đều là bằng kỹ sư ?
+    - Ngoài đi thực tập và làm luận văn , tiểu luận thì học cải thiện có giúp em ra trường đúng hạn không ?
+    - Sau khi tốt nghiệp có còn được trường tổ chức cơ hội tìm kiếm việc làm như trước giờ trường vẫn làm hay không?
+    - nếu không đạt được chuẩn đầu ra gồm tin học và Toiec thì sẽ như thế nào?
+    - Đối với K7 về sau phải học 4.5 năm mới nhận được bằng kĩ sư , vậy em chỉ học 4 năm xong e tốt nghiệp được không ?
+    - sau khi hoàn tất thủ tục tốt nghiệp thì bao lâu em mới nhận được bằng?
+    - Sau khi tốt nghiệp thì khi nào em mới nhận được bằng?
+
+
+- intent: ask_renluyen
+  examples: |
+    - Cho em hỏi điểm rèn luyện sẽ được xét như thế nào vậy ạ?
+    - rèn luyện tại đâu thì có hiệu quả tốt nhất ạ ?
+    - Vào trường sẽ được rèn luyện những gì
+    - Ngoài tự rèn luyện em có thể tham gia rèn luyện tại  trường thông qua đâu ?
+    - em cần bổ sung những kỉ năng nào để có thể đủ điều kiện đi thực tập thực tế
+    - Lớp trưởng có quyền sửa điểm rèn luyện của sinh viên khác trong lớp không ? 
+    - Sinh viên có thể kiếm điểm rèn luyện bằng cách nào ?
+    - Điểm rèn luyện có được ghi trong bảng điểm học tập hay không?
+    - Nếu như sinh viên đó không thích lớp trưởng (thậm chí tỏ vẻ ghét ra mặt) hay một ai đó trong ban cán sự mà lớp trưởng hoặc ban cán sự mượn cớ đó để sửa điểm rèn luyện mà sinh viên đó thấy điểm rèn luyện của mình không xứng đáng với những gì sinh viên đã rèn luyện thì có thể đem đi khiếu nại xử lý không ?  
+    - Muốn đạt từ điểm 90 trở lên thì phải làm như thế nào ? 
+    - Điểm rèn luyện có ảnh hưởng như thế nào về bằng tốt nghiệp sau này ?
+    - Có thể không tham gia phong trào hay clb thì có ảnh hưởng gì đến điểm rèn luyện không?
+    - Vấn đề điểm rèn luyện có khó khăn gì không ?
+    - Làm sao để tăng điểm rèn luyện
+    - Tại sao tham gia nhiều phong trào trong đoàn đội câu lạc bộ nhưng điểm rèn luyện chỉ được cộng 2 điểm?
+    - Trong thời gian học tập thì em nên rèn luyện kỹ năng gì?
+
+- intent: goodbye
+  examples: |
+    - Tạm biệt
+    - Chào tạm biệt
+    - Chào tạm biệt bạn
+    - Xin chào tạm biệt, hẹn gặp lại em
+    - Tạm biệt em
+    - bye
+    - Hẹn gặp lại
+    - Tạm biệt em nhé
+    - Tạm biệt anh
+    - Bye, hẹn gặp lại nhe
+
+- intent: thank
+  examples: |
+    - cám ơn
+    - thanks
+    - thank you
+    - ok
+    - cảm ơn em
+    - cảm ơn em nhiều nhé
+    - cảm ơn
+    - Dạ em cảm ơn!
+    - Ok, cảm ơn bạn!
+    - Cảm ơn anh
+    - Cảm ơn anh nhiều nhé
+    - merci
+    - arigato
+
+- intent: bot_challenge
+  examples: |
+    - Bạn có phải là người máy?
+    - Bạn là chatbot?
+    - Chatbot hả?
+    - Tôi đang nói chuyện với Chatbot phải không?

@@ -1,0 +1,302 @@
+version: "3.0"
+
+stories:
+
+
+- story: Hỏi về kế hoạch học tập
+  steps:
+    - intent: PT
+    - action: utter_PT
+
+- story: Hỏi về kế hoạch học tập
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_khht
+    - action: utter_khht_1
+    - intent: ask_khht
+    - action: utter_khht_2
+    - intent: ask_khht
+    - action: utter_khht_3
+    - intent: ask_khht
+    - action: utter_khht_4
+    - intent: ask_khht
+    - action: utter_khht_5
+    - intent: ask_khht
+    - action: utter_khht_6
+    - intent: ask_khht
+    - action: utter_khht_7
+    - intent: ask_khht
+    - action: utter_khht_8
+    - intent: ask_khht
+    - action: utter_khht_9
+    - intent: ask_khht
+    - action: utter_khht_10
+    - intent: ask_khht
+    - action: utter_khht_11
+    - intent: ask_khht
+    - action: utter_khht_12
+    - intent: ask_khht
+    - action: utter_khht_13
+    - intent: ask_khht
+    - action: utter_khht_14
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về học vụ
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_hocvu
+    - action: utter_hocvu_1
+    - intent: ask_hocvu
+    - action: utter_hocvu_2
+    - intent: ask_hocvu
+    - action: utter_hocvu_3
+    - intent: ask_hocvu
+    - action: utter_hocvu_4
+    - intent: ask_hocvu
+    - action: utter_hocvu_5
+    - intent: ask_hocvu
+    - action: utter_hocvu_6
+    - intent: ask_hocvu
+    - action: utter_hocvu_7
+    - intent: ask_hocvu
+    - action: utter_hocvu_8
+    - intent: ask_hocvu
+    - action: utter_hocvu_9
+    - intent: ask_hocvu
+    - action: utter_hocvu_10
+    - intent: ask_hocvu
+    - action: utter_hocvu_11
+    - intent: ask_hocvu
+    - action: utter_hocvu_12
+    - intent: ask_hocvu
+    - action: utter_hocvu_13
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về học bổng
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_hocbong
+    - action: utter_hocbong_1
+    - intent: ask_hocbong
+    - action: utter_hocbong_2
+    - intent: ask_hocbong
+    - action: utter_hocbong_3
+    - intent: ask_hocbong
+    - action: utter_hocbong_4
+    - intent: ask_hocbong
+    - action: utter_hocbong_5
+    - intent: ask_hocbong
+    - action: utter_hocbong_6
+    - intent: ask_hocbong
+    - action: utter_hocbong_7
+    - intent: ask_hocbong
+    - action: utter_hocbong_8
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về giấy xác nhận
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_1
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_2
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_3
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_4
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_5
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_6
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_7
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_8
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_9
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_10
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_11
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_12
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_13
+    - intent: ask_giayxacnhan
+    - action: utter_giayxacnhan_14
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về giấy học phí
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_hocphi
+    - action: utter_hocphi_1
+    - intent: ask_hocphi
+    - action: utter_hocphi_2
+    - intent: ask_hocphi
+    - action: utter_hocphi_3
+    - intent: ask_hocphi
+    - action: utter_hocphi_4
+    - intent: ask_hocphi
+    - action: utter_hocphi_5
+    - intent: ask_hocphi
+    - action: utter_hocphi_6
+    - intent: ask_hocphi
+    - action: utter_hocphi_7
+    - intent: ask_hocphi
+    - action: utter_hocphi_8
+    - intent: ask_hocphi
+    - action: utter_hocphi_9
+    - intent: ask_hocphi
+    - action: utter_hocphi_10
+    - intent: ask_hocphi
+    - action: utter_hocphi_11
+    - intent: ask_hocphi
+    - action: utter_hocphi_12
+    - intent: ask_hocphi
+    - action: utter_hocphi_13
+    - intent: ask_hocphi
+    - action: utter_hocphi_14
+    - intent: ask_hocphi
+    - action: utter_hocphi_15
+    - intent: ask_hocphi
+    - action: utter_hocphi_16
+    - intent: ask_hocphi
+    - action: utter_hocphi_17
+    - intent: ask_hocphi
+    - action: utter_hocphi_18
+    - intent: ask_hocphi
+    - action: utter_hocphi_19
+    - intent: ask_hocphi
+    - action: utter_hocphi_20
+    - intent: ask_hocphi
+    - action: utter_hocphi_21
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về học phí
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_1
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_2
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_3
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_4
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_5
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_6
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_7
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_8
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_9
+    - intent: ask_baohiemyte
+    - action: utter_bhyt_10
+    - intent: goodbye
+    - action: utter_goodbye
+    
+- story: Hỏi về phong trào
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_phongtrao
+    - action: utter_phongtrao_1
+    - intent: ask_phongtrao
+    - action: utter_phongtrao_2
+    - intent: ask_phongtrao
+    - action: utter_phongtrao_3
+    - intent: ask_phongtrao
+    - action: utter_phongtrao_4
+    - intent: ask_phongtrao
+    - action: utter_phongtrao_5
+    - intent: goodbye
+    - action: utter_goodbye
+    
+- story: Hỏi về tốt nghiệp
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_1
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_2
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_3
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_4
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_5
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_6
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_7
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_8
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_9
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_10
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_11
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_12
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_13
+    - intent: ask_totnghiep
+    - action: utter_totnghiep_14
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Hỏi về rèn luyện
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_renluyen
+    - action: utter_renluyen_1
+    - intent: ask_renluyen
+    - action: utter_renluyen_2
+    - intent: ask_renluyen
+    - action: utter_renluyen_3
+    - intent: ask_renluyen
+    - action: utter_renluyen_4
+    - intent: ask_renluyen
+    - action: utter_renluyen_5
+    - intent: ask_renluyen
+    - action: utter_renluyen_6
+    - intent: ask_renluyen
+    - action: utter_renluyen_7
+    - intent: ask_renluyen
+    - action: utter_renluyen_8
+    - intent: ask_renluyen
+    - action: utter_renluyen_9
+    - intent: ask_renluyen
+    - action: utter_renluyen_10
+    - intent: ask_renluyen
+    - action: utter_renluyen_11
+    - intent: ask_renluyen
+    - action: utter_renluyen_12
+    - intent: ask_renluyen
+    - action: utter_renluyen_13
+    - intent: ask_renluyen
+    - action: utter_renluyen_14
+    - intent: ask_renluyen
+    - action: utter_renluyen_15
+    - intent: ask_renluyen
+    - action: utter_renluyen_16
+    - intent: goodbye
+    - action: utter_goodbye

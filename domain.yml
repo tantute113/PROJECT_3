@@ -1,0 +1,260 @@
+version: "3.0"
+intents:
+  - PT
+  - greet
+  - ask_khht
+  - ask_hocvu
+  - ask_hocbong
+  - ask_giayxacnhan
+  - ask_hocphi
+  - ask_baohiemyte
+  - ask_phongtrao
+  - ask_totnghiep
+  - ask_renluyen
+  - goodbye
+  - thank
+  - bot_challenge
+
+responses:
+ utter_PT:
+  - text: "PT lovely nhất !"
+ utter_greet:
+  - text: "Chào bạn"
+ utter_khht_1:
+  - text: "Anh văn căn bản 3 sẽ được học ở học kỳ 1 năm thứ 2"
+ utter_khht_2:
+  - text: "Bạn cần học chuyên sâu về HTML, CSS và Javascript"
+ utter_khht_3:
+  - text: "Bạn được phép rút học phần khi chưa bắt đầu học hoặc bạn được phép rút học phần chậm nhất đến tuần thứ 7 của học kỳ chính hoặc tuần thứ 2 của học kỳ phụ."
+ utter_khht_4:
+  - text: "Bạn nên học thêm các kỹ năng mềm"
+ utter_khht_5:
+  - text: "Các bạn có thể xem thời khóa biểu tại website https://sinhvien.ctuet.edu.vn"
+ utter_khht_6:
+  - text: "Đồ án sẽ được thực hiện trong 14 tuần"
+ utter_khht_7:
+  - text: "Được chọn lịch học theo kế hoạch học tập đã xếp trước"
+ utter_khht_8:
+  - text: "Em chỉ chọn được những học phần thay thế trong cùng 1 khung thôi"
+ utter_khht_9:
+  - text: "Hiện nay trường chưa có học phần đồ án tốt nghiệp, trường chỉ tổ chức học phần khóa luận tốt nghiệp kéo dài 14 tuần"
+ utter_khht_10:
+  - text: "Kế hoạch học tập các bạn tự xây dựng dựa trên hướng dẫn của CVHT"
+ utter_khht_11:
+  - text: "Kế hoạch học tập các bạn tự xây dựng hàng năm dựa trên hướng dẫn của CVHT"
+ utter_khht_12:
+  - text: "Mỗi học kỳ có thể đăng ký học từ 15 đến 22 tín chỉ, trừ học kỳ cuối và học kỳ phụ theo kế hoạch học tập toàn khóa"
+ utter_khht_13:
+  - text: "Từ khóa 2019 trở về sau, bạn sẽ đi thực tập 3 tháng"
+ utter_khht_14:
+  - text: "Từ khóa 2019 trở về sau, học CNTT bạn sẽ đi thực tập 3 tháng"
+ utter_hocvu_1:
+  - text: "Bạn có thể xem điều 19, Quy định kèm theo Quyết định 493/QĐ-ĐHKTCN"
+ utter_hocvu_2:
+  - text: "Bạn có thể xem Quyết định 493/QĐ-ĐHKTCN được cung cấp tại website của phòng Đào tạo: http://pdaotao.ctuet.edu.vn/News.aspx?MenuID=432"
+ utter_hocvu_3:
+  - text: "Bạn có thể xem tại website của phòng Đào tạo: http://pdaotao.ctuet.edu.vn/News.aspx?MenuID=416"
+ utter_hocvu_4:
+  - text: "Bạn nên đăng ký và đúng theo kế hoạch đã được phòng Đào tạo công bố"
+ utter_hocvu_5:
+  - text: "Nếu bạn quên mật khẩu của thể liên hệ Ban Quản trị HTTT để được cấp lại mật khẩu mới"
+ utter_hocvu_6:
+  - text: "Phụ huynh và giảng viên toàn trường"
+ utter_hocvu_7:
+  - text: "Theo điều 17, Quy định kèm theo Quyết định 493/QĐ-ĐHKTCN, thì chỉ cần học ít nhất 1 học kỳ, điểm trung bình trên 2.0 và không bị cảnh báo học vụ sẽ thõa điều kiện được bảo lưu "
+ utter_hocvu_8:
+  - text: "Tối thiểu là 40 sinh viên của lớp đại cương hoặc cơ sở nghành và tối thiểu 30 sinh viên cho lớp chuyện ngành"
+ utter_hocvu_9:
+  - text: "Từ Khóa 2019 trở về sau là 4 năm với chương trình cử nhân và 4.5 năm với chương trình kỹ sư."
+ utter_hocvu_10:
+  - text: "Tùy theo số tín chỉ của một học phần mã mỗi học phần sẽ có thời gian học tập khác nhau, nhưng theo quy định của Bộ giáo dục là tối đã 15 tuần"
+ utter_hocvu_11:
+  - text: "Vào đầu mỗi học năm học, Phòng đào tạo sẽ lên kế hoạch đào tạo cho cả năm học, dựa trên kế hoạch đó để các bạn đăng ký học phần"
+ utter_hocvu_12:
+  - text: "Vào đầu mỗi học năm học, Phòng đào tạo sẽ lên kế hoạch đào tạo cho cả năm học, dựa trên kế hoạch đó để các bạn đăng ký học phần"
+ utter_hocvu_13:
+  - text: "Kể từ khóa 2019 trở về sau, đào tạo theo chương trình kỹ sư sẽ là 4,5 năm (tương đương 9 học kỳ)"
+ utter_hocbong_1:
+  - text: "Học bổng loại khá là 2 triệu đồng"
+ utter_hocbong_2:
+  - text: "Trường phát học bổng trong vòng 1 tháng kể tù này công bố danh sách học bổng, chỉ phát qua tài khoản ngân hàng Vietcombank"
+ utter_hocbong_3:
+  - text: "Học bổng trường lấy 8% học phí phát cho sinh viên, trong đó xét kết quả học tập và điểm rèn luyện làm điều kiện xét học bổng, lấy 8% số lượng sinh viên có thành tích cao từ trên xuống."
+ utter_hocbong_4:
+  - text: "Học bổng họ Dương một năm phát một lần"
+ utter_hocbong_5:
+  - text: "Học bổng trường lấy 8% học phí phát cho sinh viên, trong đó xét kết quả học tập và điểm rèn luyện làm điều kiện xét học bổng, lấy 8% số lượng sinh viên có thành tích cao từ trên xuống."
+ utter_hocbong_6:
+  - text: "Học bổng loại giỏi điểm rèn luyện từ 80 điểm trở lên, điểm tích lũy từ 3.2 trở lên, lấy từ cao lấy xuống đủ 8% là dừng"
+ utter_hocbong_7:
+  - text: "Trường phát học bổng trong vòng 1 tháng kể tù này công bố danh sách học bổng, chỉ phát qua tài khoản ngân hàng Vietcombank"
+ utter_hocbong_8:
+  - text: "Tùy theo học bổng du học mà em chọn là gì, xem trong điều kiện học bổng du học; sinh viên năm cuối sẽ xét học bổng dựa vào thành tích 2 học kỳ cuối cùng"
+ utter_giayxacnhan_1:
+  - text: "Hiện tại Nhà trường có 2 hình thức đăng ký các thủ tục giấy xác nhận: đăng ký trực tiếp tại trường hoặc đăng ký online. Nếu đăng ký tại trường thì đăng ký trong giờ hành chính tại phòng CTCT&QLSV, nếu đăng ký online thì đăng ký lúc nào cũng được"
+ utter_giayxacnhan_2:
+  - text: "Hiện tại Nhà trường có 2 hình thức đăng ký các thủ tục giấy xác nhận: đăng ký trực tiếp tại trường hoặc đăng ký online. Nếu đăng ký tại trường thì đăng ký trong giờ hành chính tại phòng CTCT&QLSV, nếu đăng ký online thì đăng ký lúc nào cũng được. Link đăng ký được đăng tại website phòng CTCT&QLSV"
+ utter_giayxacnhan_3:
+  - text: "Giấy xác nhận có thời gian quy định, nếu trễ thời gian sẽ không được xem xét"
+ utter_giayxacnhan_4:
+  - text: "Trường phát giấy xác nhận vào ngày thứ 3 và thứ 6 hàng tuần tại phòng CTCT&QLSV, muốn nhận giấy xác nhận cần phải đăng ký trước rồi mới nhận giấy."
+ utter_giayxacnhan_5:
+  - text: "Nếu sinh viên cần giấy xác nhận gấp có thể liên hệ trực tiếp với phòng CTCT&QLSV để được hỗ trợ"
+ utter_giayxacnhan_6:
+  - text: "Giấy xác nhận nghĩa vụ quân sự sẽ phát trong 7 ngày kể từ thời gian đăng ký thành công"
+ utter_giayxacnhan_7:
+  - text: "Trường chỉ phát giấy xác nhận online hoặc trực tiếp tại trường"
+ utter_giayxacnhan_8:
+  - text: "Giấy xác nhận online được phát tại drive chung đăng ở website phòng CTCT&QLSV"
+ utter_giayxacnhan_9:
+  - text: "Thủ tục vay vốn ở trường liên hệ phòng CTCT&QLSV; thủ tục vay vốn ngân hành chính sách liên hệ ngân hàng chính sách địa phương nơi cư trú"
+ utter_giayxacnhan_10:
+  - text: "xác nhận của địa phương chỉ nhận xác nhận của xã (phường, thị trấn)"
+ utter_giayxacnhan_11:
+  - text: "Em phải đăng ký online thì mới có giấy xác nhận tạm hoãn nghĩa vụ quân sự, trường không xác nhận khi sinh viên không đăng ký"
+ utter_giayxacnhan_12:
+  - text: "Nếu là sinh viên chính quy và còn trong thời gian đào tạo tối thiểu sẽ được cấp giấy tạm hoãn nghĩa vụ quân sự"
+ utter_giayxacnhan_13:
+  - text: "Tùy vào loại giấy xác nhận mà địa phương sẽ ký đóng dấu và xác nhận, biểu mẫu được đăng tại website phòng CTCT&QLSV"
+ utter_giayxacnhan_14:
+  - text: "Trường phát giấy xác nhận vào ngày thứ 3 và thứ 6 hàng tuần tại phòng CTCT&QLSV, muốn nhận giấy xác nhận cần phải đăng ký trước rồi mới nhận giấy. Giấy xác nhận được phát trong vòng 7 ngày kể từ ngày đăng ký"
+ utter_hocphi_1:
+  - text: "Căn cứ chỉ đạo của Ban Giám hiệu Trường Đại học Kỹ thuật – Công nghệ Cần Thơ về công tác quản lý sinh viên năm học 2020 – 2021. Các đối tượng sinh viên dân tộc thiểu số thuộc diện hộ nghèo và cận nghèo được miễn giảm học phí; Sinh viên hộ nghèo có xác nhận của địa phương sẽ được hưởng trợ cấp 100000 đồng trên tháng."
+ utter_hocphi_2:
+  - text: "Theo quy định không giảm học phí mùa dịch vì vẫn học online bình thường."
+ utter_hocphi_3:
+  - text: "Theo quy định của Bộ giáo dục và đào tạo học phí mỗi năm sẽ tăng theo quy định."
+ utter_hocphi_4:
+  - text: "Mỗi năm Nhà trường sẽ mở 3 học kỳ, thời gian đóng học phí sẽ được phòng tài chính kế toán thông báo cho sinh viên trước khi bắt đầu học kỳ mới"
+ utter_hocphi_5:
+  - text: "Hiện tại có 3 hình thức đóng học phí: chuyển khoản trực tiếp vào số tài khoản của trường; nộp tiền tại ngân hàng vào số tài khoản của trường; nộp tại phòng tài chính kế toán của trường."
+ utter_hocphi_6:
+  - text: "Nhà trường cho phép xin viên gia hạn thời gian học phí tối đa 1 tháng. Tuy nhiên, trong tình hình dịch bệnh"
+ utter_hocphi_7:
+  - text: "Theo quy định của Bộ giáo dục và đào tạo học phí mỗi năm sẽ tăng theo quy định. Học phí năm 2021-2022 đối với khối ngành IV,V là 270000 đồng trên 1 tín chỉ; khối III,VII là 240000 đồng trên 1 tín chỉ"
+ utter_hocphi_8:
+  - text: "Sinh viên có thể  gia hạn đến trước khi thi cuối kỳ 1 tuần."
+ utter_hocphi_9:
+  - text: "Sinh viên có thể  gia hạn đến trước khi thi cuối kỳ 1 tuần."
+ utter_hocphi_10:
+  - text: "Em có thể  gia hạn đến trước khi thi cuối kỳ 1 tuần."
+ utter_hocphi_11:
+  - text: "Nếu muốn bảo lưu cần làm hồ sơ bảo lưu, gửi CVHT, CVHT sẽ chuyển phòng CTCT&QLSV để hoàn tất thủ tục bảo lưu, tiền học phí vẫn được bảo lưu"
+ utter_hocphi_12:
+  - text: "Xem chính sách miễn giảm học phí tại website của phòng CTCT&QLSV"
+ utter_hocphi_13:
+  - text: "Em có thể  gia hạn đến trước khi thi cuối kỳ 1 tuần."
+ utter_hocphi_14:
+  - text: "Tình hình dịch bệnh Nhà trường cho phép gia hạn học phí đến hết học kỳ 1"
+ utter_hocphi_15:
+  - text: "Tình hình dịch bệnh Nhà trường cho phép gia hạn học phí đến hết học kỳ 1"
+ utter_hocphi_16:
+  - text: "Dịch bệnh Nhà trường cho phép sinh viên gia hạn, hỗ trợ cho vay ngân sách nhà nước, Nhà trường không có chính sách giảm học phí"
+ utter_hocphi_17:
+  - text: "Dịch bệnh Nhà trường cho phép sinh viên gia hạn, hỗ trợ cho vay ngân sách nhà nước, Nhà trường không có chính sách giảm học phí"
+ utter_hocphi_18:
+  - text: "Tình hình dịch bệnh Nhà trường cho phép gia hạn học phí đến hết học kỳ 1"
+ utter_hocphi_19:
+  - text: "Nhà trường không có chính sách giảm học phí"
+ utter_hocphi_20:
+  - text: "Dịch bệnh Nhà trường cho phép sinh viên gia hạn, hỗ trợ cho vay ngân sách nhà nước, Nhà trường không có chính sách giảm học phí"
+ utter_hocphi_21:
+  - text: "Theo quy định của Bộ giáo dục và đào tạo học phí mỗi năm sẽ tăng theo quy định. Chỉ tăng theo năm không tăng theo học kỳ."
+ utter_bhyt_1:
+  - text: "Bảo hiểm y tế chỉ gia hạn hoặc phát lại khi bị mất. Tra cứu thông tin bảo hiểm y tế tại webste phòng tài chính kế toán "
+ utter_bhyt_2:
+  - text: "Đối với sinh viên chưa có thẻ bảo hiểm y tế: Liên hệ với phòng tài chính kế toán hoặc chuyên viên y tế của trường để nhận thẻ bảo hiểm y tế "
+ utter_bhyt_3:
+  - text: "Bảo hiểm y tế không cấp mới, khi sinh viên đóng tiền bảo hiểm y tế sẽ được gia hạn, sinh viên sử dụng thẻ cũ, sinh viên có thể tra cứu thông tin trên website của phòng tài chính kế toán."
+ utter_bhyt_4:
+  - text: "Bảo hiểm y tế là bắt buộc theo quy định của Bộ y tế"
+ utter_bhyt_5:
+  - text: "Nếu đã có bảo hiểm y tế tại địa phương thì chụp hình 2 mặt bảo hiểm gửi về địa chỉ mail baohiemyte@ctuet.edu.vn; không cần mua bảo hiểm tại trường"
+ utter_bhyt_6:
+  - text: "Bảo hiểm y tế được sử dụng theo quy định của Bộ y tế"
+ utter_bhyt_7:
+  - text: "Bảo hiểm vẫn sài thẻ cũ, chỉ gia hạn thời gian sử dụng bảo hiểm, tra cứu thông tin gia hạn tại website phòng tài chính kế toán"
+ utter_bhyt_8:
+  - text: "Thời hạn bảo hiểm y tế sẽ được gia hạn theo năm, trước 1 tháng khi bảo hiểm y tế hết hạn phải đóng tiền gia hạn bảo hiểm y tế. Tra cứu thông tin bảo hiểm y tế tại website phòng tài chính kế toán."
+ utter_bhyt_9:
+  - text: "Dịch bệnh Nhà trường cho phép sinh viên gia hạn, hỗ trợ cho vay ngân sách nhà nước, Nhà trường không có chính sách giảm học phí"
+ utter_bhyt_10:
+  - text: "Theo quy định của Bộ giáo dục và đào tạo học phí mỗi năm sẽ tăng theo quy định. Chỉ tăng theo năm không tăng theo học kỳ."
+ utter_phongtrao_1:
+  - text: "Căn cứ hướng dẫn rèn luyện nếu tham gia phong trào và tham gia Đoàn Thanh niên hoặc Hội sinh viên thì điểm rèn luyện đạt tối đa là 30 điểm (theo thang chấm điểm của hướng dẫn rèn luyện)"
+ utter_phongtrao_2:
+  - text: "Những phong trào nỗi bật trong năm: Hội trại truyền thống, Hội thi văn nghệ truyền thống, Mùa hè xanh, Trung thu cho em, Hỗ trợ người già neo đơn và trẻ em mồ côi."
+ utter_phongtrao_3:
+  - text: "Các phong trào, hoạt động giúp ích cho sự phát triển kỹ năng mềm cho sinh viên, nên khi ra trường sinh viên sẽ hoàn thiện kỹ năng để xin việc."
+ utter_phongtrao_4:
+  - text: "Hiện tại trường có 15 câu lạc bộ đội nhóm"
+ utter_phongtrao_5:
+  - text: "Tham gia phong trào của câu lạc bộ nếu có minh chứng vẫn được tính  điểm tham gia phong trào"
+ utter_totnghiep_1:
+  - text: "Theo chương trình đào tạo hệ Kỹ sư sẽ học 9 học kỳ tương đương 150 tín chỉ, hệ cử nhân 8 học kỳ tương đương 130 tín chỉ (chưa bao gồm 11 tín chỉ giáo dục quốc phòng an ninh và giáo dục thể chất). Tùy theo kế hoạch học tập sinh viên có quyền đăng ký học vượt một học kỳ tối đa 22 tín chỉ để rút ngắn thời gian học tập"
+ utter_totnghiep_2:
+  - text: "Tùy theo kế hoạch học tập sinh viên có quyền đăng ký học vượt một học kỳ tối đa 22 tín chỉ để rút ngắn thời gian học tập là 4 năm hoặc 4,5 năm. Thời gian học tập tối đa là 8 năm"
+ utter_totnghiep_3:
+  - text: "Những tiêu chí để tốt nghiệp là đáp ứng chuẩn đầu ra về Ngoại ngữ, Tin học (Nếu có), chứng nhận giáo dục quốc phòng an ninh và giáo dục thể chất. Hoàn thành 100% chương tình đào tạo. "
+ utter_totnghiep_4:
+  - text: "Nếu trả nợ hết các học phần, hoàn thành chương trình đào tạo, đáp ứng đủ chuẩn đầu ra thì sẽ được xét tốt nghiệp vào lần tiếp theo (đợt tháng 9 hoặc đợt tháng 3)"
+ utter_totnghiep_5:
+  - text: "Thời gian tốt nghiệp chậm nhất là gấp đôi thời gian đào tạo ( hệ cử nhân là 8 năm,  hệ kỹ sư là 9 năm)"
+ utter_totnghiep_6:
+  - text: "Theo quy chế đào tạo tín chỉ: mỗi học kỳ được phép đăng ký tối đa 22 tín chỉ, nên sinh viên có thể đăng ký hoc rút ngắn để hoàn thành thời gian sớm nhất có thể"
+ utter_totnghiep_7:
+  - text: "Những điều kiện để tốt nghiệp là đáp ứng chuẩn đầu ra về Ngoại ngữ, Tin học (Nếu có), chứng nhận giáo dục quốc phòng an ninh và giáo dục thể chất. Hoàn thành 100% chương tình đào tạo. "
+ utter_totnghiep_8:
+  - text: "Thời gian xét tốt nghiệp là vào tháng 3 và tháng 9 hằng năm"
+ utter_totnghiep_9:
+  - text: "Sau khi hoàn tất chương trình đào tạo và chuẩn đầu ra trong đợt xét vào tháng 3 hoặc tháng 9 sẽ được nhận bằng tốt nghiệp tạm thời"
+ utter_totnghiep_10:
+  - text: "Từ năm 2019 Tất cả các ngành đào tạo hiện tại đều có chương trình đào tạo dành cho kỹ sư và cử nhân. Nên việc tốt nghiệp Kỹ sư hay cử nhân là do sinh viên lên kế hoạch học tập. Lựa chọn chương trình đào tao phù hợp với sinh viên."
+ utter_totnghiep_11:
+  - text: "Học cải thiện giúp cải thiện điểm học phần, Học cải thiện chỉ là một phần nhỏ của việc ra trường đúng hạn. Sinh viên phải học theo kế hoạch học tập căn cứ từ chương trình đào tạo để thực hiện"
+ utter_totnghiep_12:
+  - text: "Sau khi tốt nghiệp trường vẫn tổ chức các buổi trao đổi gặp gỡ với nhà tuyển dụng, giới thiệu việc làm cho sinh viên."
+ utter_totnghiep_13:
+  - text: "Nếu không đạt chuẩn đầu ra Tin học và Ngoại ngữ thì sinh viên sẽ không được cấp bằng tốt nghiệp đại học"
+ utter_totnghiep_14:
+  - text: "sau khi hoàn tất thủ tục tốt nghiệp thì trong vòng 1 tháng sẽ được nhận bằng"
+ utter_renluyen_1:
+  - text: "Căn cứ kế hoạch 1238/KH_ĐHKTCN Kế hoạch Tổ chức đánh giá kết quả rèn luyện và xét học bổng khuyến khích học tập của sinh viên chính quy học kỳ I, II năm học 2021-2022; Điểm rèn luyện được xét theo 5 bước: tự đánh giá theo mẫu có sẵn trước CVHT và tập thể lớp; Đánh giá ở cấp Khoa; CVHT nhập điểm; Phòng CTCT&QLSV rà soát giải quyết khiếu nại; Họp hội đồng đánh giá kết quả rèn luyện."
+ utter_renluyen_2:
+  - text: "Rèn luyện là hình thức đánh giá kết quả học tập, hoạt động phong trào, ý thức sinh viên, nên việc rèn luyện là do ý thức mỗi cá nhân tự giác tự học tự nghiên cứu đồng thời tham giâ sinh hoạt tại các câu lạc bộ đội nhóm để rèn luyện được tốt hơn"
+ utter_renluyen_3:
+  - text: "Rèn luyện về ý thức tự giác trong học tập, tự nghiên cứu, rèn luyện ý thức cộng đồng, nội quy, quy chế của trường, chính sách pháp luật của nhà nước; kỹ năng mềm; hoạt động phong trào. "
+ utter_renluyen_4:
+  - text: "Ngoài tự rèn luyện em có thể tham gia sinh hoạt rèn luyện tại Đoàn thanh niên Khoa trực thuộc hoặc Đoàn thanh niên Trường, Hội sinh viên, câu lạc bộ đội nhóm."
+ utter_renluyen_5:
+  - text: "Những kỹ năng cần thiết khi đi thực tâp thực tế: Kỹ năng làm việc nhóm, Kỹ năng chịu đựng áp lực công việc, Kỹ năng giao tiếp"
+ utter_renluyen_6:
+  - text: "Điểm rèn luyện sau khi sinh viên tự chấm sẽ được CVHT và tập thể lớp xem xét chỉnh sửa (Nếu có)"
+ utter_renluyen_7:
+  - text: "Điểm rèn luyện được xét theo thang điểm theo mẫu gồm đánh giá: ý thức học tập; ý thức và kết quả chấp hành nội quy, quy chế, quy định trong nhà trường; ý thức và kết quả tham gia các hoạt động chính trị, xã hội, văn hoá, văn nghệ, thể thao, phòng chống tội phạm và các tệ nạn xã hội; ý thức công dân trong quan hệ cộng đồng; ý thức và kết quả tham gia công tác phụ trách lớp, các đoàn thể, tổ chức trong nhà trường hoặc đạt được thành tích đặc biệt trong học tập, rèn luyện của học sinh, sinh viên."
+ utter_renluyen_8:
+  - text: "Đối với Khóa 2019 về sau sẽ ghi điểm rèn luyện lên bẳng điểm toàn khóa"
+ utter_renluyen_9:
+  - text: "Căn cứ kế hoạch 1238/KH_ĐHKTCN Kế hoạch Tổ chức đánh giá kết quả rèn luyện và xét học bổng khuyến khích học tập của sinh viên chính quy học kỳ I, II năm học 2021-2022; Điểm rèn luyện được xét theo 5 bước: tự đánh giá theo mẫu có sẵn trước CVHT và tập thể lớp; Đánh giá ở cấp Khoa; CVHT nhập điểm; Phòng CTCT&QLSV rà soát giải quyết khiếu nại; Họp hội đồng đánh giá kết quả rèn luyện. Nếu sinh viên thấy không hợp lý có thể khiếu nại với CVHT hoặc Phòng CTCT&QLSV "
+ utter_renluyen_10:
+  - text: "Theo Phiếu đánh giá rèn luyện nếu hoàn thành tốt các thang điểm đánh giá ý thức học tập; ý thức và kết quả chấp hành nội quy, quy chế, quy định trong nhà trường; ý thức và kết quả tham gia các hoạt động chính trị, xã hội, văn hoá, văn nghệ, thể thao, phòng chống tội phạm và các tệ nạn xã hội; ý thức công dân trong quan hệ cộng đồng; ý thức và kết quả tham gia công tác phụ trách lớp, các đoàn thể, tổ chức trong nhà trường hoặc đạt được thành tích đặc biệt trong học tập, rèn luyện của học sinh, sinh viên; thì có thể đạt 90 điểm trở lên"
+ utter_renluyen_11:
+  - text: "Trên bảng điểm tốt nghiệp toàn khóa có ghi điểm rèn luyện; thông qua điểm rèn luyện nhà tuyển dụng sẽ đánh giá được ý thức làm việc, các kỹ năng của sinh viên"
+ utter_renluyen_12:
+  - text: "Nếu không tham gia phong trào hay câu lạc bộ thì sinh viên sẽ không có điểm ở các thang điểm ý thức và kết quả tham gia các hoạt động chính trị, xã hội, văn hoá, văn nghệ, thể thao, phòng chống tội phạm và các tệ nạn xã hội; ý thức công dân trong quan hệ cộng đồng; ý thức và kết quả tham gia công tác phụ trách lớp, các đoàn thể, tổ chức trong nhà trường hoặc đạt được thành tích đặc biệt trong học tập, rèn luyện của học sinh, sinh viên."
+ utter_renluyen_13:
+  - text: "Điểm rèn luyện được xét theo quy chế học vụ; căn cứ theo kế hoạch thực hiện nên không có khó khăn trong quá trình thực hiện."
+ utter_renluyen_14:
+  - text: "Muốn đạt điểm rèn luyện cao cần tham gia phong trào, câu lạc bộ đội nhóm, ý thức học tập và kết quả học tập tốt."
+ utter_renluyen_15:
+  - text: "Điểm rèn luyện được xét theo thang điểm theo mẫu gồm đánh giá: ý thức học tập; ý thức và kết quả chấp hành nội quy, quy chế, quy định trong nhà trường; ý thức và kết quả tham gia các hoạt động chính trị, xã hội, văn hoá, văn nghệ, thể thao, phòng chống tội phạm và các tệ nạn xã hội; ý thức công dân trong quan hệ cộng đồng; ý thức và kết quả tham gia công tác phụ trách lớp, các đoàn thể, tổ chức trong nhà trường hoặc đạt được thành tích đặc biệt trong học tập, rèn luyện của học sinh, sinh viên. Điểm rèn luyện được tính theo quy định nên sinh viên phải cân nhắc việc tham gia phong trào với các hoạt động khác. Việc tham gia phong trào nhiều sẽ được xem xét khen thưởng của Đoàn Thanh niên, Hội sinh viên"
+ utter_renluyen_16:
+  - text: "Trong thời gian học tập em nên rèn luyện kỹ năng làm việc nhóm, kỹ năng quản lý thời gian, sắp xếp công việc khoa học, kỹ năng chịu đựng áp lực công việc, kỹ năng giao tiếp"
+ utter_goodbye:
+  - text: "Tạm biệt bạn"
+ utter_iamabot:
+  - text: "Tôi là chatbot CVHT"
+
+session_config:
+ session_expiration_time: 60
+ carry_over_slots_to_new_session: true
